@@ -1,0 +1,15 @@
+import = [
+       "~/.config/alacritty/themes/themes/argonaut.toml"
+]
+
+[window]
+dimensions = { columns = 80, lines = 24 }
+opacity = 0.95
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Retina" }
+size = 14
+offset = { y = 2 }
+
+[colors.primary]
+background = "#181818"
