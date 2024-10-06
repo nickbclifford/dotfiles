@@ -1,10 +1,11 @@
 import = [
-       "argonaut.toml"
+    "~/dotfiles/argonaut.toml"
 ]
 
 [window]
 dimensions = { columns = 80, lines = 24 }
 opacity = 0.95
+resize_increments = true
 
 [font]
 normal = { family = "FiraCode Nerd Font Mono", style = "Retina" }
@@ -13,3 +14,9 @@ offset = { y = 2 }
 
 [colors.primary]
 background = "#181818"
+
+[keyboard]
+bindings = [
+    { key = "T", mods = "Control | Shift", action = "CreateNewWindow" },
+	{ key = "W", mods = "Control | Shift", action = "Quit" }
+]
