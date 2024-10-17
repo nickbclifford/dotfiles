@@ -3,7 +3,7 @@ import = [
 ]
 
 [window]
-dimensions = { columns = 80, lines = 24 }
+dimensions = { columns = 100, lines = 25 }
 opacity = 0.95
 resize_increments = true
 
